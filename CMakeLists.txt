@@ -5,5 +5,5 @@ set(CMAKE_CXX_STANDARD 11)
 
 include_directories(header)
 
-set(SOURCE_FILES src/Person.cpp header/Person.h src/PointersAndReferences.cpp)
+set(SOURCE_FILES src/Person.cpp header/Person.h src/PointersAndReferences.cpp src/Const.cpp)
 add_executable(PointersandReferences ${SOURCE_FILES})

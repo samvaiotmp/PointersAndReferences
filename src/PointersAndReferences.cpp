@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main()
+int main2()
 {
     int a=3;
     cout << "a is " << a << endl;
@@ -29,6 +29,15 @@ int main()
     Person& rKate = Kate;
     rKate.SetNumber(345);
     cout << "rKate: " << rKate.GetName() << " " << rKate.GetNumber() << endl;
+
+    int* badPointer= nullptr;
+    if(badPointer)
+    {
+        *badPointer=3;
+        cout << *badPointer << endl;
+    }
+
+
 
     return 0;
 }
